@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductShowcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <div class="product-image">
+            <img src="./Images/image1.png" alt="front-image" />
+        
+            <div class="controls">
+                <span class="btn active"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            </div>
+        </div>
+          
+        
+        <div class="product-details">
+        <h1 class="title">Casual T shirt</h1>
+        <h2 class="price">$15.00</h2>
+        <p class="offer">30% off</p>
+        <p class="description">Wrangler is an American manufacturer of jeans and other clothing items, particulary workwear.</p>
+
+        <form>
+            <div class="size">
+
+            <p>Size</p>
+            <label for="small">
+                <input type="radio" name="size" id="small">
+                <span>S</span>
+                <label for="medium">
+                    <input type="radio" name="size" id="medium">
+                    <span>M</span>
+                    <label for="large">
+                        <input type="radio" name="size" id="large">
+                        <span>L</span>
+                        <label for="extra-large">
+                            <input type="radio" name="size" id="extra-large">
+                            <span>XL</span>
+                            <label for="double-large">
+                                <input type="radio" name="size" id="double-large">
+                                <span>XXL</span>
+            </label>                     
+    </div>
+    <div class="colors">
+        <p>Color</p>
+        <label for="red">
+            <input type="radio" name="color" id="red">
+            <span class="color-1"></span></label>
+            <label for="green">
+            <input type="radio" name="color" id="green">
+            <span class="color-2"></span></label>
+            <label for="blue">
+            <input type="radio" name="color" id="blue">
+            <span class="color-3"></span></label>
+            <label for="pink">
+            <input type="radio" name="color" id="pink">
+            <span class="color-4"></span></label>
+
+        </label>
+    </div>
+
+    <div class="quantity">
+        <p>Quantity</p>
+        <input type="number" value="1">
+    </div>
+    <button class="buy-button" type="submit">Buy Now</button>
+</form> 
+        </div>
+    </div>
+    </div>
+</body>
+</html>
