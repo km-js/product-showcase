@@ -85,7 +85,7 @@ position: relative;
 }
 
 .size p{
-    width: 70px;
+    width: 50px;
 }
 
 .size input:checked + span{
